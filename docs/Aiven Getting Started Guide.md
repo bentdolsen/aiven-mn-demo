@@ -186,15 +186,15 @@ makes it easy to get these additional metrics by following these steps:
 To send Kafka metrics to Influx DB go to the Kafka service overview page and scroll down until you see
 Service Integrations:
 
-![Service Integrations](images/service integrations.png)
+![Service Integrations](images/service%20integrations.png)
 
 Then click on Manage Integrations and select the Metrics option as highlighted below:
 
-![integration options](images/integration options.png)
+![integration options](images/integration%20options.png)
 
 In the dialog that comes up select New Service and select New InfluxDB service as shown below:
 
-![metrics integration dialog](images/metrics integration dialog.png)
+![metrics integration dialog](images/metrics%20integration%20dialog.png)
 
 This will create a new InfluxDB instance in your Aiven account and will automatically start sending metrics
 from your Kafka cluster to it.
@@ -217,7 +217,7 @@ built-in Kafka dashboard. To see this dashboard you need to use the Grafana web 
 To get the url for this navigate to the Grafana service that was created and you should see the following
 information:
 
-![Grafana service connection info](images/grafana service connection info.png)
+![Grafana service connection info](images/grafana%20service%20connection%20info.png)
 
 Open the Service URI in a new tab and use the User and Password from the connection info screen as the
 credentials to log in to Grafana.
@@ -225,5 +225,5 @@ credentials to log in to Grafana.
 Once in Grafana you need to find the Kafka dashboard that has already been set up. You can find it under
 Dashboards -> Manage as shown below:
 
-![Grafana Dashboard](images/grafana dashboard.png)
+![Grafana Dashboard](images/grafana%20dashboard.png)
 
