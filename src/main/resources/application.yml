@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: aivenMnDemo
+kafka:
+  bootstrap:
+    servers: demo-cluster-bentdolsen-74d4.aivencloud.com:23660
+  ssl:
+    keystore:
+      location: ./src/main/resources/client.keystore.p12
+      password: ${client.keystore.password}
+    truststore:
+      location: ./src/main/resources/client.truststore.jks
+      password: ${client.truststore.password}
+      type: PKCS12
+  security:
+    protocol: ssl
+jackson:
+  serialization:
+    writeDatesAsTimestamps: false
